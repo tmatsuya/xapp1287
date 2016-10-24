@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_dport_aud_pat_gen_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_dport_aud_pat_gen" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/aud_aclk" type="logic">
+      <obj_property name="ElementShortName">aud_aclk</obj_property>
+      <obj_property name="ObjectShortName">aud_aclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/aud_aresetn" type="logic">
+      <obj_property name="ElementShortName">aud_aresetn</obj_property>
+      <obj_property name="ObjectShortName">aud_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="group49" type="group">
+      <obj_property name="label">AXI lite CPU interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_awvalid" type="logic">
+         <obj_property name="ElementShortName">m_axil_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axil_awvalid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_awready" type="logic">
+         <obj_property name="ElementShortName">m_axil_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axil_awready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_awaddr" type="array">
+         <obj_property name="ElementShortName">m_axil_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_awaddr[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_awprot" type="array">
+         <obj_property name="ElementShortName">m_axil_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_wvalid" type="logic">
+         <obj_property name="ElementShortName">m_axil_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axil_wvalid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_wready" type="logic">
+         <obj_property name="ElementShortName">m_axil_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axil_wready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_wdata" type="array">
+         <obj_property name="ElementShortName">m_axil_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_wdata[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_wstrb" type="array">
+         <obj_property name="ElementShortName">m_axil_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_bvalid" type="logic">
+         <obj_property name="ElementShortName">m_axil_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axil_bvalid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_bready" type="logic">
+         <obj_property name="ElementShortName">m_axil_bready</obj_property>
+         <obj_property name="ObjectShortName">m_axil_bready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_bresp" type="array">
+         <obj_property name="ElementShortName">m_axil_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_arvalid" type="logic">
+         <obj_property name="ElementShortName">m_axil_arvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axil_arvalid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_arready" type="logic">
+         <obj_property name="ElementShortName">m_axil_arready</obj_property>
+         <obj_property name="ObjectShortName">m_axil_arready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_araddr" type="array">
+         <obj_property name="ElementShortName">m_axil_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_araddr[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_arprot" type="array">
+         <obj_property name="ElementShortName">m_axil_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_rvalid" type="logic">
+         <obj_property name="ElementShortName">m_axil_rvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axil_rvalid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_rready" type="logic">
+         <obj_property name="ElementShortName">m_axil_rready</obj_property>
+         <obj_property name="ObjectShortName">m_axil_rready</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_rdata" type="array">
+         <obj_property name="ElementShortName">m_axil_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_rdata[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/m_axil_rresp" type="array">
+         <obj_property name="ElementShortName">m_axil_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axil_rresp[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group50" type="group">
+      <obj_property name="label">AXI Streaming Audio</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/s_axis_aud_pattern_tdata" type="array">
+         <obj_property name="ElementShortName">s_axis_aud_pattern_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_aud_pattern_tdata[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/s_axis_aud_pattern_tid" type="array">
+         <obj_property name="ElementShortName">s_axis_aud_pattern_tid[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_aud_pattern_tid[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/s_axis_aud_pattern_tvalid" type="logic">
+         <obj_property name="ElementShortName">s_axis_aud_pattern_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_aud_pattern_tvalid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/s_axis_aud_pattern_tready" type="logic">
+         <obj_property name="ElementShortName">s_axis_aud_pattern_tready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_aud_pattern_tready</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/rcvd_id" type="array">
+      <obj_property name="ElementShortName">rcvd_id[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rcvd_id[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/rcvd_dest" type="array">
+      <obj_property name="ElementShortName">rcvd_dest[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rcvd_dest[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/rcvd_data" type="array">
+      <obj_property name="ElementShortName">rcvd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rcvd_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/par" type="logic">
+      <obj_property name="ElementShortName">par</obj_property>
+      <obj_property name="ObjectShortName">par</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/cnt_frame" type="array">
+      <obj_property name="ElementShortName">cnt_frame[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_frame[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/cnt_subframe" type="array">
+      <obj_property name="ElementShortName">cnt_subframe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_subframe[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chan" type="array">
+      <obj_property name="ElementShortName">dec_chan[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_chan[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio" type="array">
+      <obj_property name="ElementShortName">dec_audio[1:8][23:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_audio[1:8][23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio[1]" type="array">
+         <obj_property name="ElementShortName">[1][23:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_audio[1][23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">50</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+         <obj_property name="AnalogYRangeMin">-8500000.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">8500000.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio[2]" type="array">
+         <obj_property name="ElementShortName">[2][23:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_audio[2][23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">50</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+         <obj_property name="AnalogYRangeMin">-8500000.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">8500000.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio[3]" type="array">
+         <obj_property name="ElementShortName">[3][23:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_audio[3][23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">50</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+         <obj_property name="AnalogYRangeMin">-8500000.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">8500000.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio[4]" type="array">
+         <obj_property name="ElementShortName">[4][23:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_audio[4][23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">50</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+         <obj_property name="AnalogYRangeMin">-8500000.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">8500000.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio[5]" type="array">
+         <obj_property name="ElementShortName">[5][23:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_audio[5][23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">50</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+         <obj_property name="AnalogYRangeMin">-8500000.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">8500000.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio[6]" type="array">
+         <obj_property name="ElementShortName">[6][23:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_audio[6][23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">50</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+         <obj_property name="AnalogYRangeMin">-8500000.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">8500000.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio[7]" type="array">
+         <obj_property name="ElementShortName">[7][23:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_audio[7][23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">50</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+         <obj_property name="AnalogYRangeMin">-8500000.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">8500000.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio[8]" type="array">
+         <obj_property name="ElementShortName">[8][23:0]</obj_property>
+         <obj_property name="ObjectShortName">dec_audio[8][23:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">50</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+         <obj_property name="AnalogYRangeMin">-8500000.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">8500000.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_audio_valid" type="array">
+      <obj_property name="ElementShortName">dec_audio_valid[1:8]</obj_property>
+      <obj_property name="ObjectShortName">dec_audio_valid[1:8]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata" type="array">
+      <obj_property name="ElementShortName">dec_userdata[1:8][0:191]</obj_property>
+      <obj_property name="ObjectShortName">dec_userdata[1:8][0:191]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata[1]" type="array">
+         <obj_property name="ElementShortName">[1][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_userdata[1][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata[2]" type="array">
+         <obj_property name="ElementShortName">[2][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_userdata[2][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata[3]" type="array">
+         <obj_property name="ElementShortName">[3][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_userdata[3][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata[4]" type="array">
+         <obj_property name="ElementShortName">[4][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_userdata[4][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata[5]" type="array">
+         <obj_property name="ElementShortName">[5][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_userdata[5][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata[6]" type="array">
+         <obj_property name="ElementShortName">[6][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_userdata[6][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata[7]" type="array">
+         <obj_property name="ElementShortName">[7][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_userdata[7][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_userdata[8]" type="array">
+         <obj_property name="ElementShortName">[8][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_userdata[8][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat" type="array">
+      <obj_property name="ElementShortName">dec_chanstat[1:8][0:191]</obj_property>
+      <obj_property name="ObjectShortName">dec_chanstat[1:8][0:191]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat[1]" type="array">
+         <obj_property name="ElementShortName">[1][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_chanstat[1][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat[2]" type="array">
+         <obj_property name="ElementShortName">[2][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_chanstat[2][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat[3]" type="array">
+         <obj_property name="ElementShortName">[3][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_chanstat[3][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat[4]" type="array">
+         <obj_property name="ElementShortName">[4][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_chanstat[4][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat[5]" type="array">
+         <obj_property name="ElementShortName">[5][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_chanstat[5][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat[6]" type="array">
+         <obj_property name="ElementShortName">[6][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_chanstat[6][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat[7]" type="array">
+         <obj_property name="ElementShortName">[7][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_chanstat[7][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_dport_aud_pat_gen/dec_chanstat[8]" type="array">
+         <obj_property name="ElementShortName">[8][0:191]</obj_property>
+         <obj_property name="ObjectShortName">dec_chanstat[8][0:191]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

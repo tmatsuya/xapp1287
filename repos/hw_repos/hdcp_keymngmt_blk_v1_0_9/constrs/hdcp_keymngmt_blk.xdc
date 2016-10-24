@@ -1,0 +1,2 @@
+set_max_delay -from [get_cells -hierarchical *meta_ff_1_reg] -to [get_cells -hierarchical *meta_ff_2_reg] 2.000
+set_max_delay -from [get_cells -hierarchical {*r_Control_reg[0]}] -to [get_cells -hierarchical *meta_ff_1_reg] [get_property PERIOD [get_clocks -of_objects [get_pins -hier *keystore_inst/m_axis_aclk]]] -datapath_only
